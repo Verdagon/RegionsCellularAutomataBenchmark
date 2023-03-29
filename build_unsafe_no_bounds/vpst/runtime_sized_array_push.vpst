@@ -1,0 +1,6 @@
+{"__type": "File", 
+  "fileCoord": {"__type": "FileCoordinate", 
+    "packageCoord": {"__type": "PackageCoordinate", "module": "v", "packages": ["builtins", "runtime_sized_array_push"]},    "filepath": "runtime_sized_array_push.vale"
+},  "commentsRanges": [],
+  "denizens": []
+}

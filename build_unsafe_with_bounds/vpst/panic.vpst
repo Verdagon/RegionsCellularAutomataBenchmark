@@ -1,0 +1,6 @@
+{"__type": "File", 
+  "fileCoord": {"__type": "FileCoordinate", 
+    "packageCoord": {"__type": "PackageCoordinate", "module": "v", "packages": ["builtins", "panic"]},    "filepath": "panic.vale"
+},  "commentsRanges": [],
+  "denizens": []
+}

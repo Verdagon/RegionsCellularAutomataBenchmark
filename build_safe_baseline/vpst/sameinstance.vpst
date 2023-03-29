@@ -1,0 +1,76 @@
+{"__type": "File", 
+  "fileCoord": {"__type": "FileCoordinate", 
+    "packageCoord": {"__type": "PackageCoordinate", "module": "", "packages": []},    "filepath": "sameinstance.vale"
+},  "commentsRanges": [],
+  "denizens": [
+    {"__type": "Function", 
+      "range": {"__type": "Range", "begin": 1, "end": 66},      "header": {"__type": "FunctionHeader", 
+        "range": {"__type": "Range", "begin": 1, "end": 65},        "name": {"__type": "Some", 
+          "value": {"__type": "Name", "range": {"__type": "Range", "begin": 35, "end": 38}, "name": "==="}},
+        "attributes": [
+          {"__type": "BuiltinAttribute", 
+            "range": {"__type": "Range", "begin": 1, "end": 29},            "generatorName": {"__type": "Name", "range": {"__type": "Range", "begin": 9, "end": 28}, "name": "vale_same_instance"}
+}],
+        "maybeUserSpecifiedIdentifyingRunes": {"__type": "Some", 
+          "value": {"__type": "IdentifyingRunes", 
+            "range": {"__type": "Range", "begin": 38, "end": 41},            "identifyingRunes": [
+              {"__type": "IdentifyingRune", 
+                "range": {"__type": "Range", "begin": 39, "end": 40},                "name": {"__type": "Name", "range": {"__type": "Range", "begin": 39, "end": 40}, "name": "T"},
+                "maybeType": {"__type": "None"},
+                "maybeCoordRegion": {"__type": "None"},
+                "attributes": [],
+                "maybeDefault": {"__type": "None"}
+}]
+}},
+        "templateRules": {"__type": "None"},
+        "params": {"__type": "Some", 
+          "value": {"__type": "IdentifyingRunes", 
+            "range": {"__type": "Range", "begin": 41, "end": 60},            "patterns": [
+              {"__type": "IdentifyingRunes", 
+                "range": {"__type": "Range", "begin": 42, "end": 49},                "selfBorrow": {"__type": "None"},
+                "capture": {"__type": "Some", 
+                  "value": {"__type": "LocalNameDeclaration", 
+                    "name": {"__type": "Name", "range": {"__type": "Range", "begin": 42, "end": 46}, "name": "left"}}},
+                "maybePreChecked": {"__type": "None"},
+                "templex": {"__type": "Some", 
+                  "value": {"__type": "InterpretedT", 
+                    "range": {"__type": "Range", "begin": 47, "end": 49},                    "maybeOwnership": {"__type": "Some", 
+                      "value": {"__type": "OwnershipT", 
+                        "range": {"__type": "Range", "begin": 47, "end": 48},                        "ownership": {"__type": "Borrow"}
+}},
+                    "maybeRegion": {"__type": "None"},
+                    "inner": {"__type": "NameOrRuneT", 
+                      "rune": {"__type": "Name", "range": {"__type": "Range", "begin": 48, "end": 49}, "name": "T"}}
+}},
+                "destructure": {"__type": "None"},
+                "virtuality": {"__type": "None"}
+},              {"__type": "IdentifyingRunes", 
+                "range": {"__type": "Range", "begin": 51, "end": 59},                "selfBorrow": {"__type": "None"},
+                "capture": {"__type": "Some", 
+                  "value": {"__type": "LocalNameDeclaration", 
+                    "name": {"__type": "Name", "range": {"__type": "Range", "begin": 51, "end": 56}, "name": "right"}}},
+                "maybePreChecked": {"__type": "None"},
+                "templex": {"__type": "Some", 
+                  "value": {"__type": "InterpretedT", 
+                    "range": {"__type": "Range", "begin": 57, "end": 59},                    "maybeOwnership": {"__type": "Some", 
+                      "value": {"__type": "OwnershipT", 
+                        "range": {"__type": "Range", "begin": 57, "end": 58},                        "ownership": {"__type": "Borrow"}
+}},
+                    "maybeRegion": {"__type": "None"},
+                    "inner": {"__type": "NameOrRuneT", 
+                      "rune": {"__type": "Name", "range": {"__type": "Range", "begin": 58, "end": 59}, "name": "T"}}
+}},
+                "destructure": {"__type": "None"},
+                "virtuality": {"__type": "None"}
+}
+]
+}},
+        "return": {"__type": "FunctionReturn", 
+          "range": {"__type": "Range", "begin": 61, "end": 65},          "retType": {"__type": "Some", 
+            "value": {"__type": "NameOrRuneT", 
+              "rune": {"__type": "Name", "range": {"__type": "Range", "begin": 61, "end": 65}, "name": "bool"}}}
+}
+},
+      "body": {"__type": "None"}
+}]
+}

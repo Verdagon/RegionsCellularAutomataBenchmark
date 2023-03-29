@@ -1,0 +1,31 @@
+{"__type": "File", 
+  "fileCoord": {"__type": "FileCoordinate", 
+    "packageCoord": {"__type": "PackageCoordinate", "module": "", "packages": []},    "filepath": "migrate.vale"
+},  "commentsRanges": [
+    {"__type": "Range", "begin": 29, "end": 62},    {"__type": "Range", "begin": 63, "end": 84},
+    {"__type": "Range", "begin": 85, "end": 105},
+    {"__type": "Range", "begin": 106, "end": 115},
+    {"__type": "Range", "begin": 116, "end": 167},
+    {"__type": "Range", "begin": 168, "end": 217},
+    {"__type": "Range", "begin": 218, "end": 265},
+    {"__type": "Range", "begin": 266, "end": 270},
+    {"__type": "Range", "begin": 271, "end": 273},
+    {"__type": "Range", "begin": 274, "end": 315},
+    {"__type": "Range", "begin": 316, "end": 348},
+    {"__type": "Range", "begin": 349, "end": 375},
+    {"__type": "Range", "begin": 376, "end": 385},
+    {"__type": "Range", "begin": 386, "end": 423},
+    {"__type": "Range", "begin": 424, "end": 473},
+    {"__type": "Range", "begin": 474, "end": 521},
+    {"__type": "Range", "begin": 522, "end": 526},
+    {"__type": "Range", "begin": 527, "end": 528}
+],
+  "denizens": [
+    {"__type": "Import", 
+      "range": {"__type": "Range", "begin": 0, "end": 27},      "moduleName": {"__type": "Name", "range": {"__type": "Range", "begin": 7, "end": 8}, "name": "v"},
+      "packageSteps": [
+        {"__type": "Name", "range": {"__type": "Range", "begin": 9, "end": 17}, "name": "builtins"},        {"__type": "Name", "range": {"__type": "Range", "begin": 18, "end": 24}, "name": "arrays"}
+],
+      "importeeName": {"__type": "Name", "range": {"__type": "Range", "begin": 25, "end": 26}, "name": "*"}
+}]
+}

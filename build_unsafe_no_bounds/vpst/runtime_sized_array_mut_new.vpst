@@ -1,0 +1,81 @@
+{"__type": "File", 
+  "fileCoord": {"__type": "FileCoordinate", 
+    "packageCoord": {"__type": "PackageCoordinate", "module": "", "packages": []},    "filepath": "runtime_sized_array_mut_new.vale"
+},  "commentsRanges": [],
+  "denizens": [
+    {"__type": "Function", 
+      "range": {"__type": "Range", "begin": 0, "end": 106},      "header": {"__type": "FunctionHeader", 
+        "range": {"__type": "Range", "begin": 0, "end": 105},        "name": {"__type": "Some", 
+          "value": {"__type": "Name", "range": {"__type": "Range", "begin": 48, "end": 53}, "name": "Array"}},
+        "attributes": [
+          {"__type": "BuiltinAttribute", 
+            "range": {"__type": "Range", "begin": 0, "end": 42},            "generatorName": {"__type": "Name", 
+              "range": {"__type": "Range", "begin": 8, "end": 41},              "name": "vale_runtime_sized_array_mut_new"
+}
+}],
+        "maybeUserSpecifiedIdentifyingRunes": {"__type": "Some", 
+          "value": {"__type": "IdentifyingRunes", 
+            "range": {"__type": "Range", "begin": 53, "end": 74},            "identifyingRunes": [
+              {"__type": "IdentifyingRune", 
+                "range": {"__type": "Range", "begin": 54, "end": 66},                "name": {"__type": "Name", "range": {"__type": "Range", "begin": 54, "end": 55}, "name": "M"},
+                "maybeType": {"__type": "Some", 
+                  "value": {"__type": "GenericParameterType", 
+                    "range": {"__type": "Range", "begin": 56, "end": 66},                    "type": {"__type": "MutabilityTypePR"}
+}},
+                "maybeCoordRegion": {"__type": "None"},
+                "attributes": [],
+                "maybeDefault": {"__type": "None"}
+},              {"__type": "IdentifyingRune", 
+                "range": {"__type": "Range", "begin": 68, "end": 73},                "name": {"__type": "Name", "range": {"__type": "Range", "begin": 68, "end": 69}, "name": "E"},
+                "maybeType": {"__type": "Some", 
+                  "value": {"__type": "GenericParameterType", 
+                    "range": {"__type": "Range", "begin": 70, "end": 73},                    "type": {"__type": "CoordTypePR"}
+}},
+                "maybeCoordRegion": {"__type": "None"},
+                "attributes": [],
+                "maybeDefault": {"__type": "None"}
+}
+]
+}},
+        "templateRules": {"__type": "Some", 
+          "value": {"__type": "TemplateRules", 
+            "range": {"__type": "Range", "begin": 85, "end": 105},            "rules": [
+              {"__type": "EqualsPR", 
+                "range": {"__type": "Range", "begin": 98, "end": 105},                "left": {"__type": "TemplexPR", 
+                  "templex": {"__type": "NameOrRuneT", 
+                    "rune": {"__type": "Name", "range": {"__type": "Range", "begin": 98, "end": 99}, "name": "M"}}},
+                "right": {"__type": "TemplexPR", 
+                  "templex": {"__type": "MutabilityT", 
+                    "range": {"__type": "Range", "begin": 102, "end": 105},                    "mutability": {"__type": "Mutable"}
+}}
+}]
+}},
+        "params": {"__type": "Some", 
+          "value": {"__type": "IdentifyingRunes", 
+            "range": {"__type": "Range", "begin": 74, "end": 84},            "patterns": [
+              {"__type": "IdentifyingRunes", 
+                "range": {"__type": "Range", "begin": 75, "end": 83},                "selfBorrow": {"__type": "None"},
+                "capture": {"__type": "Some", 
+                  "value": {"__type": "LocalNameDeclaration", 
+                    "name": {"__type": "Name", "range": {"__type": "Range", "begin": 75, "end": 79}, "name": "size"}}},
+                "maybePreChecked": {"__type": "None"},
+                "templex": {"__type": "Some", 
+                  "value": {"__type": "NameOrRuneT", 
+                    "rune": {"__type": "Name", "range": {"__type": "Range", "begin": 80, "end": 83}, "name": "int"}}},
+                "destructure": {"__type": "None"},
+                "virtuality": {"__type": "None"}
+}]
+}},
+        "return": {"__type": "FunctionReturn", 
+          "range": {"__type": "Range", "begin": 85, "end": 105},          "retType": {"__type": "Some", 
+            "value": {"__type": "RuntimeSizedArrayT", 
+              "range": {"__type": "Range", "begin": 85, "end": 91},              "mutability": {"__type": "NameOrRuneT", 
+                "rune": {"__type": "Name", "range": {"__type": "Range", "begin": 88, "end": 89}, "name": "M"}},
+              "element": {"__type": "NameOrRuneT", 
+                "rune": {"__type": "Name", "range": {"__type": "Range", "begin": 90, "end": 91}, "name": "E"}}
+}}
+}
+},
+      "body": {"__type": "None"}
+}]
+}
