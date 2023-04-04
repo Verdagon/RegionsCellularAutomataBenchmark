@@ -1,6 +1,5 @@
 $1 build ca=src --clang_override $2 --no_std true --opt_level O3 --asm true --llvm_ir true --output_dir build_naive_rc --region_override naive-rc --elide_checks_for_regions false
 $1 build ca=src --clang_override $2 --no_std true --opt_level O3 --asm true --llvm_ir true --output_dir build_rc_regions --region_override naive-rc
-$1 build ca=src --clang_override $2 --no_std true --opt_level O3 --asm true --llvm_ir true --output_dir build_safe_baseline_old --region_override safe-baseline
 $1 build ca=src --clang_override $2 --no_std true --opt_level O3 --asm true --llvm_ir true --output_dir build_safe_baseline --region_override safe --elide_checks_for_regions false
 $1 build ca=src --clang_override $2 --no_std true --opt_level O3 --asm true --llvm_ir true --output_dir build_safe_32 --region_override safe --gen_size 32
 $1 build ca=src --clang_override $2 --no_std true --opt_level O3 --asm true --llvm_ir true --output_dir build_safe_64 --region_override safe --gen_size 64
